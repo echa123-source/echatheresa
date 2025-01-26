@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Tautkan file CSS -->
+    <!-- Link Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+     <!-- Tambahkan Swiper Library -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const swiper = new Swiper('.home-slider', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+        });
+    });
+</script>
+
+</head>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<body>
+    <!-- Bagian Header -->
+    <section class="header" style="background-color: #1E90FF;">
+    <a href="travelagent.html" class="logo"><b>Fenansi Travel Co</b></a>
+    <nav class="navbar">
+        <a href="travelagent.html">home</a>
+        <a href="travelagent.html">about</a>
+        <a href="travelagent.html">package</a>
+        <a href="travelagent.html">book</a>
+    </nav>
+    <div id="menu-btn" class="fas fa-bars"></div>
+</section>
+
+
+<!-- home section start -->
+
+<section class="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+
+            <!-- Slide 1 -->
+            <div class="swiper-slide slide" style="background-image: url(images/snorkeling.jpg);">
+                <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>the bali explorer</h3>
+                    
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide slide" style="background-image: url(images/nusa-penida.jpg);">
+                <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>travel around the world</h3>
+                    
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide slide" style="background-image: url(images/rice.png);">
+                <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>discover the new place</h3>
+                    
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="swiper-slide slide" style="background-image: url(images/swing.jpg);">
+                <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>make your tour worthwhile</h3>
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+<!-- home section ends -->
+
+
+        <!-- Kontrol Navigasi -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+
+
+
+
+<!--service section start-->
+
+<section class="services">
+    <h1 class="heading-title">Our Services</h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/icon1.png" alt="Adventure Icon">
+            <h3>Adventure</h3>
+        </div>
+        <div class="box">
+            <img src="images/icon2.png" alt="Tour Guide Icon">
+            <h3>Tour Guide</h3>
+        </div>
+        <div class="box">
+            <img src="images/icon3.png" alt="Trekking Icon">
+            <h3>Trekking</h3>
+        </div>
+        <div class="box">
+            <img src="images/icon4.png" alt="Camp Fire Icon">
+            <h3>Camp Fire</h3>
+        </div>
+        <div class="box">
+            <img src="images/icon5.png" alt="Off Road Icon">
+            <h3>Off Road</h3>
+        </div>
+        <div class="box">
+            <img src="images/icon6.png" alt="Camping Icon">
+            <h3>Camping</h3>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--service section ands-->
+
+<!--home about start-->
+
+<section class="home-about"> 
+    <div class="images">
+        <img src="images/monkey.jpg" alt="Monkey Image">
+    </div>
+    <div class="content">
+        <h3>About Us</h3>
+        <p>
+            Fenansi Travel Co is a tour and travel company located in the heart of Kuta, Bali. We are committed to providing the best service to every traveler, ensuring unforgettable trips with us.
+        </p>
+    </div>
+</section>
+
+
+<!--home about ends-->
+
+
+
+<!--home packages section start-->
+<section class="home-packages">
+    <h1 class="heading-title">Our Packages</h1>
+
+    <div class="box-container">
+        <!-- Box 1 -->
+        <div class="box">
+            <div class="image">
+                <img src="images/kecak.jpg" alt="Kecak Dance Image">
+            </div>
+            <div class="content">
+                <h3>Uluwatu Tour</h3>
+                <p>
+                    Experience the magic of Bali’s southern coast with the Uluwatu Tour, a journey that blends natural beauty, cultural heritage, and breathtaking ocean vistas. This tour highlights the iconic Uluwatu Temple, perched dramatically on a cliff overlooking the Indian Ocean. 
+                </p>
+            </div>
+        </div>
+<!-- box 2-->
+        <div class="box">
+            <div class="image">
+                <img src="images/tukad.png" alt="Kecak Dance Image">
+            </div>
+            <div class="content">
+                <h3>Ubud Tour</h3>
+                <p>
+                    Dive into the cultural and historical richness of Ubud on this thoughtfully curated tour. Begin with a refreshing visit to Tegenungan Waterfall, a stunning natural landmark nestled in a lush jungle setting. Continue to Goa Gajah, the “Elephant Cave,” an archaeological marvel steeped
+            </div>
+        </div>
+
+
+        <!-- Box 3 -->
+        <div class="box">
+            <div class="image">
+                <img src="images/rice.png" alt="Rice Terrace Image">
+            </div>
+            <div class="content">
+                <h3>Nature & Culture</h3>
+                <p>
+                    Discover the rich cultural heritage of Bali with this immersive tour. Visit iconic landmarks, lush rice terraces, and traditional Balinese villages. This package is ideal for those who wish to explore the harmony of Bali's natural beauty and cultural traditions.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load More Button -->
+   
+</section>
+
+<!--home packages section ends-->
+
+
+<!--home offer section start-->
+
+
+<style type="text/css">
+    /* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+section {
+    padding: 2rem 5%;
+}
+
+h1, h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: #1E90FF;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #007acc;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: #1E90FF;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #d9d9d9;
+}
+
+/* Home Section */
+.home {
+    position: relative;
+    height: 100vh;
+    background: #000;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.swiper-slide .content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.swiper-pagination-bullet {
+    background: #fff;
+}
+
+/* Services Section */
+.services {
+    background-color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.services .heading-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.services .box {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.services .box:hover {
+    transform: scale(1.05);
+}
+
+.services .box img {
+    width: 50px;
+    margin-bottom: 1rem;
+}
+
+.services .box h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* About Section */
+.home-about {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 0;
+}
+
+.home-about .images img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-about .content {
+    max-width: 500px;
+}
+
+.home-about .content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.home-about .content p {
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Packages Section */
+.home-packages {
+    background-color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.home-packages .heading-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.home-packages .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.home-packages .box {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.home-packages .box:hover {
+    transform: translateY(-10px);
+}
+
+.home-packages .box .image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.home-packages .box .content {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.home-packages .box .content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.home-packages .box .content p {
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/* Offer Section */
+.home-offer {
+    background-color: #1E90FF;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.home-offer .content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.home-offer .content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.home-offer .content p {
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-about .images img {
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+</style>
+	
+</section>
+
+
+<!--home offer section ends-->
+
+
+
+
+
+
+
+
+    <!-- Bagian Footer -->
+<footer style="background-color:#1E90FF; color: #fff; padding: 20px 0;">
+
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+        <!-- Quick Links -->
+        <div style="flex: 1; min-width: 200px; margin: 10px;">
+            <h3 style="margin-bottom: 15px; color: #fff;">Quick Links</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fas fa-angle-right" style="margin-right: 8px;"></i>Home</a></li>
+                <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fas fa-angle-right" style="margin-right: 8px;"></i>About</a></li>
+                <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fas fa-angle-right" style="margin-right: 8px;"></i>Package</a></li>
+                <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fas fa-angle-right" style="margin-right: 8px;"></i>Book</a></li>
+            </ul>
+        </div>
+        <!-- Extra Links -->
+        <div style="flex: 1; min-width: 200px; margin: 10px;">
+            <h3 style="margin-bottom: 15px; color: #fff;">Extra Links</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fas fa-angle-right" style="margin-right: 8px;"></i>Ask Questions</a></li>
+                <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fas fa-angle-right" style="margin-right: 8px;"></i>About Us</a></li>
+                <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fas fa-angle-right" style="margin-right: 8px;"></i>Privacy Policy</a></li>
+                <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fas fa-angle-right" style="margin-right: 8px;"></i>Terms Of Use</a></li>
+            </ul>
+        </div>
+        <!-- Contact Info -->
+        <div style="flex: 1; min-width: 200px; margin: 10px;">
+            <h3 style="margin-bottom: 15px; color: #fff;">Contact Info</h3>
+            <p style="margin: 5px 0; color: #fff;"><i class="fas fa-phone" style="margin-right: 8px;"></i>+62-813-5309-5070</p>
+            <p style="margin: 5px 0; color: #fff;"><i class="fas fa-phone" style="margin-right: 8px;"></i>+62 812-3940-6947</p>
+            <p style="margin: 5px 0; color: #fff;"><i class="fas fa-envelope" style="margin-right: 8px;"></i>echatheresa292@Gmail.Com</p>
+            <p style="margin: 5px 0; color: #fff;"><i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i>gg. cenggana sari III no.22, sumerta kelod, kec.denpasar timur, kota denpasar, bali</p>
+        </div>
+        <!-- Follow Us -->
+        <div style="flex: 1; min-width: 200px; margin: 10px;">
+            <h3 style="margin-bottom: 15px; color: #fff;">Follow Us</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fas fa-angle-right" style="margin-right: 8px;"></i>Facebook</a></li>
+                <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fas fa-angle-right" style="margin-right: 8px;"></i>Twitter</a></li>
+                <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fas fa-angle-right" style="margin-right: 8px;"></i>Instagram</a></li>
+                <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fas fa-angle-right" style="margin-right: 8px;"></i>LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Horizontal line and footer text -->
+    <div style="margin: 20px auto; width: 90%; height: 3px; background-color: #444;"></div>
+    <p style="text-align: center; color: #8A2BE2; margin: 0;">Created By Echa Theresa | All Rights Reserved!</p>
+</footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
